@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+        <!-- font link -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap" rel="stylesheet">
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+        <!-- Google Icons -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+        rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round"
+        rel="stylesheet">
+          <!-- Font Awesome Icons -->
+          <script src="https://kit.fontawesome.com/cd379baf8a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <span class="logo"><a href="salon.html">Next Level Salon</a></span>
+            <nav id="hamnav">
+                <label for="hamburger">&#9776;</label>
+                <input type="checkbox" id="hamburger"/>
+                <ul class="navlist hamitems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="lookbook.html">Lookbook</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#"><span class="material-icons-outlined md-18">
+                        search</span></a></li>
+                    <li><a href="#"><span class="material-icons-outlined md-18">
+                        shopping_bag
+                        </span></a></li>
+                </ul>
+            </nav> 
+            <span class="bookonline"><a href="#">
+                <span class="material-icons-outlined md-18 bookonlineicon">
+                edit_calendar
+                </span>
+                Book Online
+            </span></a>         
+    </header>
+    
+<!-- Contact -->
+<article id="contact">
+    <h2 class="major">Contact</h2>
+    <form method="post" action="#">
+        <div class="fields">
+            <div class="field half">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" />
+            </div>
+            <div class="field half">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" />
+            </div>
+            <div class="field">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" rows="4"></textarea>
+            </div>
+        </div>
+        <ul class="actions">
+            <li><input type="submit" value="Send Message" class="primary" /></li>
+            <li><input type="reset" value="Reset" /></li>
+        </ul>
+    </form>
+    <ul class="contact-icons">
+        <li><a href=""><i class="fa-brands fa-facebook"></a></i></li>
+        <li><a href=""><i class="fa-brands fa-instagram"></a></i></li> 
+    </ul>
+</article>
+
+<div class="google-map">
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7185.765472354566!2d-80.19308184806849!3d25.77443652825304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1687302636848!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</div>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
