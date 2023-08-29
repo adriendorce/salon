@@ -1,7 +1,5 @@
 Hair salon site.
 
-**Link to project:** https://nextlevelsalon.netlify.app/
-
 ![salon_AdobeExpress](https://github.com/adriendorce/salon/assets/117544619/c1977bd0-4e8f-414f-b62b-81bc1f8feab1)
 
 
@@ -9,11 +7,14 @@ Hair salon site.
 
 **Tech used:** 
 
-My learning was focused on clean HTML code paired with CSS.
+HTML and CSS
 
 ## Optimizations
 
-When I improve this project I will add behavorability via Javascript, add a booking portal, a carousel of the images on the homepage, and enable the search button.
+- Behavorability via Javascript
+- Booking portal
+- Image carousel of the images on the homepage
+- Enable search
 
 ## Lessons Learned:
 
